@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="weather-container" id="center">
+
+        
+            <div class="waviy">
+              <span style="--i:1">W</span>
+              <span style="--i:2">e</span>
+              <span style="--i:3">a</span>
+              <span style="--i:4">t</span>
+              <span style="--i:5">h</span>
+              <span style="--i:6">e</span>
+              <span style="--i:7">r</span>
+              <span style="--i:8"> </span>
+              <span style="--i:8"> </span>
+              <span style="--i:8"> </span>
+              <span style="--i:9">A</span>
+              <span style="--i:10">p</span>
+              <span style="--i:11">p</span>
+             </div>
+           
+        <!-- <h2>Weather App</h2> -->
+        <input type="text" id="city" placeholder="Enter city">
+
+        <!-- <button onclick="getWeather()">Search</button> -->
+
+        <button class="glow-on-hover" type="button" onclick="getWeather()">Search</button>
+
+        <img id="weather-icon" alt="Weather Icon">
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
